@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>news</title> 
+<style type="text/CSS"> 
+<literal>
+*{
+	font-size:16px;
+	font-family:"微软雅黑";
+  
+}
+#p_add{
+	 width:90%;
+	 height:20px;
+	 text-align:left;
+	 margin:10px auto;
+	 color:rgb(150,150,150);
+}
+#p_add a{
+	 color:rgb(150,150,150);
+}
+#p_add a:hover{
+	 color:red;
+}
+a{text-decoration:none;}
+div.page a{border:#CCC 1px solid;
+           padding:3px 5px;
+		   margin:0px 5px;
+           }
+div.page a:hover{background:#F93;}
+div.page span.current{background:#F93;
+                      border:#CCC 1px solid;
+                      padding:3px 7px;
+                      }
+div.page span.nohref{border:#CCC 1px solid;
+                     padding:3px 5px;
+		             margin:0px 5px;
+           } 
+#tab1{width:90%;
+      height:auto;
+	  margin:0px auto;
+	  }
+#tab2{width:90%;
+	  margin:20px auto;
+	  font:14px verdana;
+	  }
+
+</literal>
+</style> 
+<literal>
+<script>
+//删除确认
+function del(){
+ if(!window.confirm('是否要删除数据??'))
+	return false;
+}
+//全部选择/取消
+function chek(){
+	 var leng = this.form1.chk.length;
+	 if(leng==undefined){
+	   leng=1;
+	   if(!form1.chk.checked)
+	   	document.form1.chk.checked=true;
+		else
+			document.form1.chk.checked=false;
+	 }else{  
+       for( var i = 0; i < leng; i++)
+	    {
+			if(!form1.chk[i].checked)
+	      		document.form1.chk[i].checked = true;
+			else
+				document.form1.chk[i].checked = false;
+	    }
+	 } 
+	return false;
+}
+</script>
+</literal>
+</head> 
+<body> 
+<p id="p_add"><a href="__URL__addnews"><img height="20px" align="top" src="__IMAGES__/back/icn_new_article.png">&nbsp;添加新闻</a></p>
+<form name="form1" id="form1" method="post" action="__URL__delall">
+<table id="tab1" align="center" width="90%"  border="1" cellpadding="10" cellspacing="0"> 
+<tr bgcolor="#999999"> 
+    <td height="25" width="5%" class="top">&nbsp;</td>
+    <th width="5%" align="center" class="top">id</th>
+    <th width="20%" align="center" class="top">标题</th>
+    <th width="15%" align="center" class="top">类别</th>
+    <th width="15%" align="center" class="top">位置</th>
+    <th width="15%" align="center" class="top">时间</th>
+	<th width="" align="center" class="top">操作</th>
+</tr> 
+
+<volist name='allnews' id='news'>
+<tr>
+<td height='25' align='center' class='m_td'>
+<input type=checkbox name='chk[]' id='chk' value="{$news.newid}">
+</td>
+<td height='25' align='center' class='m_td'>{$news.newid}</td>
+<td height='25' align='justify' class='m_td'>{$news.title}</td>
+<td height='25' align='center' class='m_td'>
+<switch name='news.newclass'>
+	<case value='0'>消息</case>
+	<case value='1'><font style='color:red;'>头条</font></case>
+	<case value='2'><font style='color:blue;'>滚动新闻</font></case>
+	<default />消息
+</switch>
+</td>
+<td height='25' align='center' class='m_td'>
+<switch name='news.pos'>
+<case value='0'><font style='color:blue;'>原本位置</font></case>
+<case value='1'><font style='color:red'>图片轮播</font></case>
+<default />原本位置
+</switch>
+</td>
+<td height='25' align='center' class='m_td'>{$news.pubtime}</td>
+<td align='center' class='m_td'>
+<a href='__URL__newsmodify/id/{$news.newid}'>
+<img align='top' src='__IMAGES__/back/icn_edit_article.png'></a>&nbsp;
+<a href='__URL__newsdel/id/{$news.newid}'>
+<img align='top' src='__IMAGES__/back/icn_trash.png'></a>&nbsp;
+<a href='__URL__newspos/id/{$news.newid}'><img align='top' src='__IMAGES__/back/icn_settings.png'></a>
+</td>
+</tr>
+</volist>
+<tr>
+  <td height="25" colspan="8" align="left" class="m_td">&nbsp;<a href="" onClick="return chek();">全部选择/取消</a>	<input type="hidden" name="action" value="delall"><input type="submit" value="删除选择" onclick = 'return del();'>&nbsp;&nbsp;
+</td>
+</tr>
+</table> 
+<table id="tab2">
+<tr> 
+<td colspan="8"><div align="center" class='pages'></div></td> 
+</tr> 
+</table>
+</form>
+
+</body> 
+</html> 

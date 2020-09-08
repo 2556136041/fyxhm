@@ -1,0 +1,1666 @@
+[ 2019-06-20T00:19:51+08:00 ] 42.236.12.170 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0102s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0016s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2019-06-20T00:24:46+08:00 ] 42.236.54.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0108s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0015s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2019-06-20T00:25:06+08:00 ] 42.236.103.106 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0135s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0017s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0015s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2019-06-20T00:25:07+08:00 ] 42.236.55.21 /index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0109s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0015s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0014s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2019-06-20T00:25:07+08:00 ] 42.236.54.22 /index.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+
+[ 2019-06-20T01:00:20+08:00 ] 106.11.156.154 /by_all/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `service` WHERE ( serclass=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC LIMIT 0,10   [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2019-06-20T02:18:15+08:00 ] 66.249.79.203 /new1_1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2019-06-20T02:19:11+08:00 ] 66.249.79.218 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0101s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0017s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2019-06-20T02:30:40+08:00 ] 139.129.98.166 /member/ueditor/dialogs/internal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+
+[ 2019-06-20T03:48:45+08:00 ] 54.36.150.4 /chooseinfo/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `service` WHERE ( serid=10 and serclass=0 ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 1 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 1 ORDER BY pubtime DESC  [ RunTime:0.0074s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serid<10 and serclass=0 ) ORDER BY serid desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serid>10 and serclass=0 ) ORDER BY serid asc LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2019-06-20T04:22:32+08:00 ] 220.181.108.83 /concenter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 5   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC LIMIT 11   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC LIMIT 10   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC LIMIT 10   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2019-06-20T04:41:54+08:00 ] 42.156.136.109 /byinfo/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `service` WHERE ( serid=18 and serclass=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 1 ORDER BY pubtime DESC  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serid<18 and serclass=1 ) ORDER BY serid desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `service` WHERE ( serid>18 and serclass=1 ) ORDER BY serid asc LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2019-06-20T05:26:02+08:00 ] 54.36.149.99 /newsinfo/id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE ( newid=45 and newclass=0 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 1 ORDER BY pubtime DESC  [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 1 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `new` WHERE ( newid<45 and newclass=0 ) ORDER BY newid desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `new` WHERE ( newid>45 and newclass=0 ) ORDER BY newid asc LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2019-06-20T06:22:09+08:00 ] 54.36.150.187 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0106s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0015s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0012s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2019-06-20T08:21:25+08:00 ] 46.4.71.55 /sitemap.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+
+[ 2019-06-20T08:32:19+08:00 ] 42.156.139.125 /topnewinfo/id/84.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE ( newid=84 and newclass=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 ORDER BY pubtime DESC  [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 1 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `new` WHERE ( newid<84 and newclass=1 ) ORDER BY newid desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `new` WHERE ( newid>84 and newclass=1 ) ORDER BY newid asc LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2019-06-20T10:02:44+08:00 ] 62.210.116.176 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+
+[ 2019-06-20T11:46:29+08:00 ] 66.249.79.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0104s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0017s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2019-06-20T12:20:46+08:00 ] 42.236.10.83 /proshow/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `pro` WHERE ( proid=17 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pro` WHERE ( proname like '%红木沙发%' ) ORDER BY proid DESC LIMIT 3   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2019-06-20T12:20:46+08:00 ] 42.236.10.76 /proshow/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pro` WHERE ( proid=18 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pro` WHERE ( proname like '%红木沙发%' ) ORDER BY proid DESC LIMIT 3   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2019-06-20T12:20:46+08:00 ] 42.236.10.83 /proshow/id/68.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pro` WHERE ( proid=68 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( proname like '%金丝楠木皇宫椅%' ) ORDER BY proid DESC LIMIT 3   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2019-06-20T12:20:46+08:00 ] 42.236.10.121 /proshow/id/68.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pro` WHERE ( proid=68 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pro` WHERE ( proname like '%金丝楠木皇宫椅%' ) ORDER BY proid DESC LIMIT 3   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2019-06-20T12:20:47+08:00 ] 42.236.10.77 /proshow/id/117.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pro` WHERE ( proid=117 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( proname like '%红木博古架%' ) ORDER BY proid DESC LIMIT 3   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2019-06-20T12:20:47+08:00 ] 42.236.10.110 /proshow/id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pro` WHERE ( proid=30 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pro` WHERE ( proname like '%红木沙发%' ) ORDER BY proid DESC LIMIT 3   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2019-06-20T12:20:47+08:00 ] 42.236.10.105 /byinfo/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `service` WHERE ( serid=23 and serclass=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 1 ORDER BY pubtime DESC  [ RunTime:0.0076s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serid<23 and serclass=1 ) ORDER BY serid desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serid>23 and serclass=1 ) ORDER BY serid asc LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2019-06-20T12:21:59+08:00 ] 42.156.138.29 /byinfo/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `service` WHERE ( serid=14 and serclass=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 1 ORDER BY pubtime DESC  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `service` WHERE ( serid<14 and serclass=1 ) ORDER BY serid desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serid>14 and serclass=1 ) ORDER BY serid asc LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2019-06-20T13:48:46+08:00 ] 47.105.39.18 /statics/ueditor/dialogs/internal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+
+[ 2019-06-20T13:54:26+08:00 ] 42.236.99.242 /about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2019-06-20T13:54:26+08:00 ] 42.236.12.190 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0099s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0081s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0016s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2019-06-20T14:37:14+08:00 ] 66.249.79.216 /proshow/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pro` WHERE ( proid=23 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pro` WHERE ( proname like '%红木餐桌%' ) ORDER BY proid DESC LIMIT 3   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2019-06-20T15:36:44+08:00 ] 14.215.176.143 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0104s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0016s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-06-20T15:47:38+08:00 ] 66.249.79.220 /.well-known/assetlinks.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+
+[ 2019-06-20T15:47:38+08:00 ] 66.249.79.220 /index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0106s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0016s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2019-06-20T16:12:33+08:00 ] 42.156.137.125 /byinfo/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `service` WHERE ( serid=15 and serclass=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 1 ORDER BY pubtime DESC  [ RunTime:0.0076s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serid<15 and serclass=1 ) ORDER BY serid desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serid>15 and serclass=1 ) ORDER BY serid asc LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2019-06-20T16:18:09+08:00 ] 66.249.79.220 /proshow/id/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pro` WHERE ( proid=64 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pro` WHERE ( proname like '%红木餐台椅%' ) ORDER BY proid DESC LIMIT 3   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2019-06-20T16:58:20+08:00 ] 139.129.98.166 /statics/ueditor/dialogs/internal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+
+[ 2019-06-20T17:53:20+08:00 ] 222.240.44.115 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0104s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0056s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0015s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0012s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2019-06-20T18:20:28+08:00 ] 106.38.241.128 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0124s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0018s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0014s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2019-06-20T19:42:35+08:00 ] 42.236.10.107 /index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0109s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0015s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0012s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2019-06-20T19:42:35+08:00 ] 42.236.10.123 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0104s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0014s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0015s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2019-06-20T19:42:35+08:00 ] 42.236.10.107 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0132s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0074s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0016s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2019-06-20T19:52:45+08:00 ] 220.181.108.182 /new1_1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2019-06-20T19:58:06+08:00 ] 42.236.55.41 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0118s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0018s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0014s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2019-06-20T20:02:51+08:00 ] 106.11.154.81 /byinfo/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `service` WHERE ( serid=12 and serclass=1 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 1 ORDER BY pubtime DESC  [ RunTime:0.0082s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `service` WHERE ( serid<12 and serclass=1 ) ORDER BY serid desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE ( serid>12 and serclass=1 ) ORDER BY serid asc LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2019-06-20T21:36:15+08:00 ] 47.105.193.3 /statics/ueditor/dialogs/internal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+
+[ 2019-06-20T21:55:26+08:00 ] 106.11.155.117 /newsinfo/id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `new` WHERE ( newid=29 and newclass=0 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 1 ORDER BY pubtime DESC  [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 0 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service` WHERE `serclass` = 1 ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `new` WHERE ( newid<29 and newclass=0 ) ORDER BY newid desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `new` WHERE ( newid>29 and newclass=0 ) ORDER BY newid asc LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2019-06-20T23:21:55+08:00 ] 66.249.79.220 /proshow/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier 'p' /data/home/bxu2343130042/htdocs/ThinkPHP/Library/Think/Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pro` WHERE ( proid=23 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pro` WHERE ( proname like '%红木餐桌%' ) ORDER BY proid DESC LIMIT 3   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-06-20T23:25:01+08:00 ] 66.249.79.218 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/home/bxu2343130042/htdocs/App/Home/Controller/IndexController.class.php 第 1846 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `new` WHERE ( newclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `new` WHERE `newclass` = 0 AND `pos` = 1 ORDER BY newid DESC LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `video` WHERE ( choice=1 ) ORDER BY pubtime DESC LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pro` WHERE ( choice=1 ) ORDER BY proid DESC  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=0 ) ORDER BY pubtime DESC  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `service` WHERE ( serclass=1 ) ORDER BY pubtime DESC  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `service` WHERE ( pos=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pagehit` [ RunTime:0.0016s ]
+SQL: UPDATE `pagehit` SET `hits`=hits+1 WHERE ( id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT `hits` FROM `pagehit` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: qq_accesstoken /data/home/bxu2343130042/htdocs/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+

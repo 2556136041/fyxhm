@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>修改密码</title>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<style type="text/css">
+
+a{text-decoration: none;}
+a:hover{color:red;}
+div#div_main{
+	width:600px;
+	margin:30px auto;
+	border:1px solid #990033;
+}
+table
+{
+	width:600px;
+}
+th
+{
+	text-align: right;
+}
+td
+{
+	text-align: left;
+}
+
+input[type="button"],input[type="reset"]
+{
+     margin-right:15px;
+	 height:35px;
+	 width:60px;		 
+	 font-size:16px;
+
+}
+input[type='submit']:hover{
+	background: #990033;
+	color:white;
+
+}
+input.inp1
+{
+	width:80%;
+	height:35px;
+	line-height:35px;
+	padding-left:8px;
+	font-size:16px;
+	border:1px solid black;
+	border-radius: 5px;
+}
+h1
+{
+	width: 600px;margin: 10px auto;margin-bottom:15px;text-align: center; 
+}
+.user_icon
+{
+   background:url(__IMAGES__/comm/user_icon.jpg) right center no-repeat;
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+<include file='Common/top' />
+
+<div id="div_main">
+<h1>修改密码</h1>
+<form method="post" action="/savepwd.html">
+<table border="0" cellpadding="0" cellspacing="15">
+
+	<tr>
+		<td><input type="text" class="inp1 user_icon" name="forget_name" id="forget_name" placeholder="账号" required="" size="40" onkeydown="switchKey(document.getElementById('pwd'))" /></td>
+	</tr>
+	<tr>
+		<td><input type="text" class="inp1 user_icon" name="forget_email" placeholder="邮箱" id="forget_email" required="" size="40" onkeydown="switchKey(document.getElementById('yzm'))" />&nbsp;<a style="font-size: 18px;color:#3380EB;" href="#" onclick="send();">发送验证码</a></td>
+	</tr>
+	<tr>
+		<td><input class="inp1 user_icon" name="code" placeholder="验证码" required="" type="text" size="40" onkeydown="switchKey(document.getElementById('username'))" /> </td>
+	</tr>
+	<tr>
+		<td id="captcha-container"><input class="inp1 user_icon" name="newpwd" placeholder="新密码" required="" type="text">
+		</td>
+
+	</tr>
+	<tr>
+	    <td style="text-align:center;">
+	         <input style="width:60px;height: 60px;font-size:20px;border-radius: 50%;" type="submit" value="确定">
+	    </td>
+		
+	</tr>    
+</table>
+</form>
+
+<script>
+        function send(){
+           var name = $('#forget_name').val();
+           var email = $('#forget_email').val();
+            $.ajax({
+                type:"get",
+                url:"http://www.szfyxhm.com/sendMail.html",
+                async:false,
+                contentType:"application/json",
+                dataType:"json",
+                data:{"forget_name":name,"forget_email":email},
+                success:function(data){
+                    alert(data);
+                }
+            });
+        }
+    </script>
+
+</div>
+<include file='Common/bot' />
+</body>
+</html>

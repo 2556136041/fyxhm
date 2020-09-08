@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>红木单品</title>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<link rel="stylesheet" type="text/css" href="/Public/css/commonstyle.css">
+
+<style type="text/css">
+<literal>
+a{text-decoration:none;}
+
+#div_main{
+  width:1200px;
+  height:auto;
+  margin:10px auto;
+  font-size:18px;
+}
+
+#p_nav{
+  width:1200px;
+  margin:20px auto;
+  padding:10px 10px;
+  color:#000;
+  font-family: "微软雅黑";
+  font-size: 18px;
+}
+#p_nav a:link,#p_visited{
+  color:#000;
+}
+#p_nav a:hover{
+  color:#F00;
+}
+div#div_r{
+  float:left;
+  width: 800px;
+  height: auto;
+}
+table{
+  width: 800px;
+
+}
+
+div#relatepro{
+  float:right;
+  width:350px;
+  height: auto;
+
+}
+p.p_list{
+  text-align: center;
+}
+p#p_column{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  background: #990033;
+  color:white;
+  padding: 8px 0px;
+  position:relative;
+
+}
+p#p_column:after{
+  width:0px;
+  height:0px;
+  border: 15px transparent solid;
+  border-top-color: #990033;
+  position:absolute;
+  top:42px;
+  left:50%;
+  content:""
+}
+
+p#p_list img{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+div#cutline{
+  width:100%;
+  height: 10px;
+  clear:both;
+}
+
+
+@media only screen and (max-width: 981px){
+    #div_main{
+      width:980px;
+    }
+
+    #p_nav{
+      width:980px;
+    }
+    
+    div#div_r{
+      clear:both;
+      width:980px;
+      font-size: 3vw;
+    }
+    table{
+      width: 980px;
+    }
+
+    div#relatepro{
+      clear:both;
+      width:980px;
+    }
+    p.p_list{
+      /*text-align: center;*/
+    }
+/*    p#p_column{
+      background: red;
+      color:white;
+      padding: 10px 0px;
+      font-size: 3vw;
+
+    }*/
+
+    img.proimg{
+      width: 490px;
+    }
+
+   
+   
+}
+</literal>
+</style>
+
+</head>
+
+<body>
+<include file="Common/top" />
+
+<div id="div_main">
+	<div id="div_r">
+	 <p id="p_nav" style="line-height:25px;"><img src="__IMAGES__/comm/currentpos.png" width="25" height="25" align="top" />&nbsp;当前位置：<a href="/pro_center.html">产品中心</a>>>单品介绍</p>
+
+	  <table border="0" cellspacing="0" cellpadding="10">
+	    <tr>
+	      <td ><img src="__IMAGES__/pro/{$detail.propic}" width="100%" align="top" /></td>
+	    </tr>
+	    <tr>
+	      <td valign="middle" height="20px"><span class="lb"><b>型号:</b></span>&nbsp;&nbsp;{$detail.prono}</td>
+	    </tr>
+	    <tr>
+	      <td valign="middle" height="20px"><span class="lb"><b>名称:</b></span>&nbsp;&nbsp;<span class="pro_about">{$detail.proname}</span></span></td>
+	    </tr>
+	    <tr>
+	      <td valign="middle" height="20px"><span class="lb"><b>价格:</b></span>&nbsp;&nbsp;<span class="pro_about">适时报价，请咨询店面</span></td>
+	    </tr>
+	    <tr>
+	      <td valign="top" height"60px"><span class="lb"><b>描述:</b></span>&nbsp;&nbsp;<span class="pro_about">{$detail.proabout}</span></td>
+	    </tr>
+	    </table>
+	</div>
+	<div id="relatepro">
+	<p id="p_column"><b>同类产品</b></p>
+	<foreach name='samepro' item='prosame'>
+	<p class="p_list" style="position: absolute;"><a href="/proshow/id/{$prosame.proid}.html"><div class="div_img"><img class="proimg" style="width:100%;" src="__IMAGES__/pro/{$prosame.propic}" /></div></a></p>
+	<p class="p_list">{$prosame.proname}</p>
+	</foreach>
+
+	</div>
+
+    <script>
+        // window.onload=function(){
+        //       var classname=document.getElementByClassName('proimg').getAttribute("class");
+        //       alert(classname);
+        // }
+         $(function(){
+         	  if(screen.availWidth<=980){
+         	  	  $(".proimg").css({"width":"50%","position":"relative","left":"50%","transform":"translate(-50%)"});
+
+         	  }             
+
+
+         })
+ 
+    </script>
+</div>
+<div id="cutline"></div>
+<include file="Common/bot" />
+</body>
+</html>

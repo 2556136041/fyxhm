@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>搜索结果</title> 
+<style type="text/CSS"> 
+<literal>
+a{text-decoration:none;}
+
+#tab1{width:1000px;
+      height:auto;
+	  margin:0px auto;
+	  }
+#tab2{width:1000px;
+	  margin:20px auto;
+	  font:14px verdana;
+	  }
+
+p#currpos{
+     background:#CCC;
+	 font-family:"黑体";
+	 font-size:18px;
+	 width:1000px;
+	 height:25px;
+	 margin:15px auto;
+	 line-height:25px;
+	 padding:5px 0px;
+}
+h3{
+   font-family:"微软雅黑";
+}
+#currimg{
+	width:25px;
+	height:25px;
+	
+}
+p#p_warn{
+	width:1000px;
+	margin:20px auto;
+	font-family:"微软雅黑";
+	font-size:18px;
+	padding:8px;
+	color:red;
+	
+}
+
+.pages a,
+	.pages span {
+		display: inline-block;
+		padding: 2px 5px;
+		margin: 0 1px;
+		border: 1px solid white;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+.pages a,
+.pages li {
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	color: #990033;
+}
+.pages li {
+	margin-right: 50px;
+}
+
+.pages a.first,
+.pages a.prev,
+.pages a.next,
+.pages a.end {
+	margin: 0;
+}
+
+.pages a:hover {
+	border-color: #990033;
+}
+
+.pages span.current {
+	background: #990033;
+	color: #FFF;
+	font-weight: 700;
+	border-color: #990033;
+}
+
+@media only screen and (max-width: 981px){
+	#div_nav #ul_nav{
+		 width:1000px;
+		 margin:0px;
+		 padding:0px;
+		 background:#990033;
+		 height:80px; 
+		 letter-spacing:5px; 
+		 box-shadow: 5px 5px 3px rgb(200,200,200);
+		 position: relative;
+	}
+
+	#div_nav #ul_nav>li{
+	   height:80px;
+	   float:left;
+	}
+	#div_nav #ul_nav>.li_logo{
+		 text-align:center;
+		 height: 80px;
+		 width:20%
+	}
+	#div_nav #ul_nav>.li_column{
+		width:16%;
+		line-height:80px;
+		font-size:25px;
+		font-family:"Microsoft YaHei";
+		font-weight: 600;
+		text-align:center;
+		color: #FFF;
+	}
+	#div_nav #ul_nav>.li_column a{
+		width:100%;
+		height:80px;
+		font-weight: 600;
+	    display:block;
+	    color:#FFF;
+	}
+	#div_nav #ul_nav>.li_column a:hover{
+		width:100%;
+		height:80px;
+	    display:block;
+	    background:#C36;
+	}
+
+	#div_nav #ul_nav .li_logo img{
+		position: absolute;
+		top:15px;
+		left: 35px;
+		/*background: gray;*/
+
+	}
+
+    #div_main{
+       width:960px;
+       margin-left:20px;
+    }
+
+    #div_main #currpos{
+    	width:100%;
+    	font-size:3vw;
+    	height: 3vw;
+    	line-height: 4vw;
+    	overflow: hidden;
+    }
+    #div_main #currpos img:after{
+       content: " ";
+    }
+    #div_main #tab1{
+    	width: 100%;
+    	font-size:3vw;
+    }
+
+    #div_bottom{
+    	width:1000px;
+    }
+
+}
+</literal>
+</style> 
+
+</head> 
+<body> 
+<div id="div_nav">
+	<include file="Common/top" />
+</div>
+<div id="div_main">
+	<p id="currpos">&nbsp;
+	<img id="currimg" src="__IMAGES__/comm/currentpos.png" style="vertical-align: middle;" ><span style="vertical-align: middle;">当前位置：搜索结果>> <a href="/pro_center.html">返回</span></a>
+	</p>
+	<table id="tab1" align="center" width="1000px"  border="0" cellpadding="10" cellspacing="0"> 
+	<foreach name='list' item='all'>
+	<tr>
+	<td height='25' width="150px" align='left'><a href="/proshow/id/{$all.proid}.html"><img src="__IMAGES__/pro/{$all.propic}" width="150px" alt="" /></a></td>
+	<td height='25' width="150px" align='justify' valign='top'><b>{$all.proname}</b></td>
+	<td height='25' width="40%" align='left' valign='top'>{$all.proabout}</td>
+	<td height='25' width="" align='right' valign='top'>{$all.pubtime}</td>
+	</tr>
+	</foreach>
+	<tr>
+	<td colspan='4' align='center' class="pages">{$page}</td>
+	</tr>
+	</table> 
+</div>
+<div id="div_bottom">
+   <include file="Common/bot" />
+</div>
+</body> 
+</html> 

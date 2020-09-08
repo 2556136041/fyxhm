@@ -1,0 +1,96 @@
+@charset="UTF-8";
+
+/*通用*/
+
+
+
+/*网站所有链接打开后的颜色设置*/
+td a:visited,a.link:visited{
+     color:#990033;
+}
+
+/*首页鼠标悬停图片放大1.1倍*/
+/*头部logo*/
+#div_header img{  
+     cursor: pointer;  
+     transition: transform 0.6s;  
+}  
+#div_header img:hover{  
+     transform: scale(1.1); 
+    /*transform: rotateX(10deg); */
+}  
+
+/*轮播图片*/
+
+.rotaion_list{
+	overflow: hidden;
+}
+.rotaion_list img{
+	cursor: pointer;  
+    transition: transform 0.6s; 
+}
+.rotaion_list img:hover{
+    transform: scale(1.1);
+}
+/*产品展示*/
+
+/*选购图片*/
+#div_choose{
+	overflow: hidden;
+}
+#div_choose img{  
+     cursor: pointer;  
+     transition: transform 0.6s;  
+}  
+#div_choose img:hover{  
+     transform: scale(1.1); 
+     /*transform: rotateX(10deg); */
+}  
+/*二维码*/
+#div_qr{
+	overflow: hidden;
+}
+#div_qr img{
+	cursor: pointer;  
+    transition: transform 0.6s;
+}
+#div_qr img:hover{
+	transform: scale(1.1); 
+}
+/*产品中心*/
+
+.div_proimg{
+	overflow: hidden;
+}
+.div_proimg img{
+	cursor: pointer;  
+    transition: transform 0.6s;
+}
+.div_proimg img:hover{
+	transform: scale(1.1); 
+}
+
+/*主图*/
+.div_img,.p_img{
+	overflow: hidden;
+}
+
+.div_img img,.p_img img{
+    cursor: pointer;  
+    transition: transform 0.6s;
+}
+.div_img img:hover,.p_img img:hover{
+    transform: scale(1.1); 
+}
+/*边栏图*/
+/*.p_img{
+	overflow: hidden;
+}
+
+.p_img img{
+    cursor: pointer;  
+    transition: transform 0.6s;
+}
+.p_img img:hover{
+    transform: scale(1.1); 
+}*/

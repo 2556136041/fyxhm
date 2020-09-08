@@ -1,0 +1,11 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+
+<title>地图导航</title>    
+<body>   
+    <a href='http://api.map.baidu.com/geocoder?address=深圳宝安福永国际家具村松宝大家具广场&output=html' target='_blank'> <img style="margin:2px" width="400" height="300" src="http://api.map.baidu.com/staticimage? 
+        width=400&height=300&zoom=11&center=深圳宝安福永国际家具村松宝大家具广场" />  
+    </a>
+</body>  
+</html>

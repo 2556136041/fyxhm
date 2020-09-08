@@ -1,0 +1,80 @@
+/* CSS Document */
+
+*{
+	padding: 0px;
+	margin:0px;
+}
+/*  所在位置   */
+p#currpos{
+	clear:both;
+    width:90%;
+	height:25px;
+	margin:20px auto;
+	background:lavender;
+	font-size: 18px;
+	font-family:"微软雅黑";
+	padding:3px 0px;
+}
+
+
+/*  main   */
+#div_main{
+	width:90%;
+	margin:0px auto;
+	/*background: blue;*/
+}
+
+/*@media only screen and (max-width: 981px){
+	p#currpos{
+	    width:980px;
+    }
+
+    #div_main{
+		width:980px;
+	}
+
+
+}*/
+
+#p_lead{
+	text-align: center;
+	font-family:"微软雅黑";
+
+}
+
+h1{  
+	clear:both;
+	text-align:center;
+	padding-top:10px;
+	font-family:"微软雅黑";
+
+}
+
+
+a{text-decoration:none;}
+li{list-style-type:none;}
+h4{
+	color:#900;
+	margin:0px;
+}
+#content{	
+	margin:5px 0px;
+	
+}
+
+#content p{
+	line-height:26px;
+	text-indent:2em; 
+	text-align:justify;
+	font-family:"微软雅黑";
+	font-size:17px;
+	line-height:26px;
+}
+
+.div_img{
+	/*background: red;*/
+}
+.div_img img{
+	width: 100%;
+
+}

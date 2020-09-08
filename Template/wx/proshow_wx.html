@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>红木单品</title>
+<style type="text/css">
+<literal>
+a{text-decoration:none;}
+
+#div_main{
+  width:900px;
+  height:auto;
+  margin:10px auto;
+  font-size:18px;
+}
+
+#p_nav{
+  width:900px;
+  margin:20px auto;
+  padding:10px 10px;
+  color:#000;
+  font-family: "微软雅黑";
+  font-size: 18px;
+}
+#p_nav a:link,#p_visited{
+  color:#000;
+}
+
+div#div_con{
+  width:900px;
+  height: auto;
+}
+table{
+  width: 900px;
+
+}
+
+div#relatepro{  
+  width:900px;
+  height: auto;
+
+}
+
+p#p_column{
+  float:clear;
+  width:870px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  padding-bottom: 10px;
+  border-bottom: 3px solid red;
+
+}
+
+p.p_list{
+  width:300px;
+  height: auto;
+  float:left;
+  
+}
+
+div#cutline{
+  width:100%;
+  height: 10px;
+  clear:both;
+}
+</literal>
+</style>
+
+</head>
+
+<body>
+<include file="Common/top" />
+
+<div id="div_main">
+<div id="div_con">
+ <p id="p_nav" style="line-height:25px;"><img src="__IMAGES__/comm/currentpos.png" width="25" height="25" align="top" />&nbsp;当前位置：<a href="/pro_center.html">产品中心</a>>>单品介绍</p>
+
+  <table border="0" cellspacing="0" cellpadding="10">
+    <tr>
+      <td ><img src="__IMAGES__/pro/{$detail.propic}" width="100%" align="top" /></td>
+    </tr>
+    <tr>
+      <td valign="middle" height="20px"><span class="lb"><b>型号:</b></span>&nbsp;&nbsp;{$detail.prono}</td>
+    </tr>
+    <tr>
+      <td valign="middle" height="20px"><span class="lb"><b>名称:</b></span>&nbsp;&nbsp;<span class="pro_about">{$detail.proname}</span></span></td>
+    </tr>
+    <tr>
+      <td valign="middle" height="20px"><span class="lb"><b>价格:</b></span>&nbsp;&nbsp;<span class="pro_about">适时报价，请咨询店面</span></td>
+    </tr>
+    <tr>
+      <td valign="top" height"60px"><span class="lb"><b>描述:</b></span>&nbsp;&nbsp;<span class="pro_about">{$detail.proabout}</span></td>
+    </tr>
+    </table>
+</div>
+<p id="p_column"><b>同类产品</b></p>
+<div id="relatepro">
+<foreach name='samepro' item='prosame'>
+<p class="p_list"><a href="/proshow_wx/id/{$prosame.proid}.html"><img width="90%" src="__IMAGES__/pro/
+
+{$prosame.propic}"></a></p>
+</foreach>
+
+</div>
+
+</div>
+<div id="cutline"></div>
+<include file="Common/bot" />
+</body>
+</html>

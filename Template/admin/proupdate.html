@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>后台管理系统</title>
+	
+	<link rel="stylesheet" href="__CSS__/layout.css" type="text/css" media="screen" />
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="img/css/ie.css" type="text/css" media="screen" />
+	<script src="img/js/html5.js"></script>
+	<![endif]-->
+	<script src="__JS__/jquery-1.5.2.min.js" type="text/javascript"></script>
+	<script src="__JS__/hideshow.js" type="text/javascript"></script>
+	<script src="__JS__/jquery.tablesorter.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="__JS__/jquery.equalHeight.js"></script>
+    <script src="__JS__/ckeditor/ckeditor.js"></script>
+	<script src="__JS__/ckeditor/adapters/jquery.js"></script>   
+	<literal>    
+	<script type="text/javascript">
+	$(document).ready(function()
+	{
+	$('#content').ckeditor();
+	}
+	);
+	$(document).ready(function() 
+    	{ 
+      	  $(".tablesorter").tablesorter(); 
+   	 } 
+	);
+	$(document).ready(function() {
+
+	//When page loads...
+	$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content:first").show(); //Show first tab content
+
+	//On Click Event
+	$("ul.tabs li").click(function() {
+
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+
+		var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active ID content
+		return false;
+	});
+
+});
+    </script>
+    <script type="text/javascript">
+    $(function(){
+        $('.column').equalHeight();
+    });
+</script>
+</literal>
+</head>
+
+
+<body>
+
+<include file="./Template/admin/top.html" />
+	
+	<section id="secondary_bar">
+		<div class="user">
+			<p>admin</p>
+			<!-- <a class="logout_user" href="#" title="Logout">Logout</a> -->
+		</div>
+		<div class="breadcrumbs_container">
+			<article class="breadcrumbs"><a href="/admin.html">后台管理系统</a> <div class="breadcrumb_divider"></div> <a class="current">修改产品</a></article>
+		</div>
+	</section><!-- end of secondary bar -->
+	
+<include file='./Template/admin/leftmenu.html' />
+	
+<section id="main" class="column">
+    <form id="form1" name="form1" method="post" action="/updatepro.html">
+	<article class="module width_full">
+		<header><h3>修改产品</h3></header>
+			   <div class="module_content">
+			   <fieldset>
+						<label>位置</label>
+                            封面<input name="choice" type="radio" value="1"  style="width: 20px;height: 20px;vertical-align:middle;color:blue;">
+                            正常<input name="choice" type="radio" value="0" style="width: 20px;height: 20px;vertical-align:middle;">                               
+				</fieldset>
+				<script>
+                    $("input[name='choice'][value='{$data.choice}']").attr("checked","checked");
+
+			    </script>
+				<fieldset>
+						<label>型号</label>
+							<input style="height:40px;font-size:18px;" type="text" name="prono" value="{$data.prono}">
+				</fieldset>
+                <fieldset>
+						<label>名称</label>
+							<input style="height:40px;font-size:18px;" type="text" name="proname" value="{$data.proname}">
+				</fieldset>
+                <fieldset>
+						<label>价格</label>
+							<input style="height:40px;font-size:18px;" type="text" name="proprice" value="{$data.proprice}">
+				</fieldset>
+                <fieldset>
+						<label>描述</label>
+						<textarea style="padding:8px 0px 0px 8px;margin-top:8px;font-size:18px;" rows="8" name="proabout" id="lead">{$data.proabout}</textarea>
+				</fieldset>
+				
+             </div>
+		<footer>
+			<div class="submit_link">
+				<input type="hidden" name="id" value="{$data.proid}">
+                <input type="hidden" name="propic" value="{$data.propic}">
+                <input type="hidden" name="pubtime" value="{$data.pubtime}">
+				<input type="submit" name="submit" value="提交" class="alt_btn">
+			</div>
+		</footer>
+	</article>
+	</form>
+		<div class="spacer"></div>
+</section>
+
+</body>
+</html>

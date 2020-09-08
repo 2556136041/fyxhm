@@ -1,0 +1,59 @@
+@charset="utf-8";
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+	width:100%;
+	margin:0px;
+	padding:0px;
+
+}
+
+.hoverbox a
+{
+	cursor: default;
+}
+
+.hoverbox a .preview
+{
+	display: none;
+}
+
+.hoverbox a:hover .preview
+{
+	display: block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+}
+
+.hoverbox img
+{
+	vertical-align: top;
+	width: 325px;
+	height:260px;
+}
+
+.hoverbox li
+{
+	display: inline-block;
+	/*float: left;*/
+	margin:10px 2px;
+	/*padding:2px;*/
+	position: relative;
+	}
+
+.hoverbox .preview
+{
+	border-color: #000;
+	width: 420px;
+	height: 360px;
+}
+
+.hoverbox li:nth-child(3n+3){
+    float: right;
+}
+.hoverbox li:nth-child(3n+1){
+    float: left;
+}

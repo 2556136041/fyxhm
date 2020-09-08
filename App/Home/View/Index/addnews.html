@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>新闻撰写</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="__JS__/ckeditor/ckeditor.js"></script>
+	<script src="__JS__/ckeditor/adapters/jquery.js"></script>    
+	<script type="text/javascript">
+	$(document).ready(function(){
+	    $('#content').ckeditor();
+	});    
+	</script>
+<style type="text/css">
+<literal>
+*{
+	font-family:"微软雅黑";
+	font-size:16px;   
+
+}
+html,body{
+    width:100%;
+}
+#div_main{
+	width:90%;
+    margin:15px auto;
+}
+table{margin:10px auto;
+    background:#CCC;
+} 
+th{
+    width:120px;
+	text-align:right;
+
+}
+td{
+    text-align:left;	
+}
+td input{
+	display:inline-block;
+    width:99%;
+}
+td textarea{
+	width:100%;
+	
+}
+td select{
+    border-radius:5px;
+	border:1px solid gray;
+}
+td textarea{
+    border-radius:5px;
+
+}
+.th_area{
+    vertical-align:top;
+}
+td input[type="text"]{
+	display:block;
+    height:40px;
+	padding-left:6px;
+	border-radius:5px;
+	
+}
+h2{text-align:center;}
+input[type="submit"],input[type="reset"]{
+	width:50px;
+	height:30px;
+    font-family:"微软雅黑";
+	font-size:18px;
+}
+input[type="submit"],input[type="reset"]:hover{
+   cursor:pointer;
+}
+</literal>
+</style>
+<literal>
+<script>
+  function check(form){
+      if(form.title.value==""){
+         alert("标题不能为空");
+         form.title.focus();
+         return(false);
+      }
+       if(form.author.value==""){
+         alert("作者不能为空");
+         form.author.focus();
+         return(false);
+      }
+      if(form.from.value==""){
+         alert("来源不能为空");
+         form.from.focus();
+         return(false);
+      }
+      if(form.leader.value==""){
+         alert("导语不能为空");
+         form.leader.focus();
+         return(false);
+      }
+      if(form.myEditor.value==""){
+         alert("内容不能为空");
+         form.myEditor.focus();
+         return(false);
+      }
+      return(true);
+}  
+</script>
+</literal>
+</head>
+<body>
+<div id="div_main">
+<h2>{$Think.session.file}新闻撰写</h2>
+ <table width="100%" border="0" cellspacing="10" cellpadding="0">
+  <form name="form2" method="post" action="__URL__upload_do" enctype="multipart/form-data">
+    <tr>
+      <th align="left" style="width:600px;">上传图片：（<font style="color:red;">图片规格650*450</font>）<input type="file" name="file" />
+      </th>
+      <td>
+      <input type="hidden" name="action" value="form2" />
+      <input type="submit" name="Submit" value="提交" />
+      </td>
+    </tr>
+</form>
+    <tr>
+      <td colspan="2">
+      <php>$file=$_SESSION['file'];</php>
+      <if condition='!empty($file)'>
+         <img src="__IMAGES__/new/{$Think.session.file}" alt="description" />
+         <p>{$Think.session.file}</p>
+     <else />
+         <img src="__IMAGES__/new/0.jpg" alt="description" />
+     </if>
+      </td>
+      </tr>
+</table>
+
+
+
+<form id="form1" name="form1" method="post" action="" onsubmit="return check(this)">
+<table width="100%" border="0" cellspacing="1" cellpadding="10">
+  <tr>
+    <th>类别</th>
+    <td>
+       <select name="newclass" id="" style="height:40px;width:100px;font-size:16px;font-family:'微软雅黑';border:none;">
+          <option value="0">动态</option>
+          <option value="1">头条</option>
+        </select> 
+    </td>
+  </tr>
+<!--   <tr>
+    <th>位置</th>
+    <td>
+       正常：<input name="pos" id="" value="0" type="radio" />
+       轮播：<input name="pos" id="" value="1" type="radio" />
+    </td>
+  </tr> -->
+  <tr>
+    <th>标题</th>
+    <td>
+      <input name="title" type="text" id="title" size="80" /></td>
+  </tr>
+  <tr>
+    <th>作者</th>
+    <td>
+      <input name="author" type="text" id="author" value="admin" size="80" /></td>
+  </tr>
+  <tr>
+    <th>来源</th>
+    <td>
+       <select name="from" id="" style="height:40px;width:100px;font-size:16px;font-family:'微软雅黑';border:none;">
+          <option value="网络">网络</option>
+          <option value="原创">原创</option>
+        </select> 
+    </td>
+  </tr>
+  <tr>
+    <th class="th_area">导语</th>
+    <td>
+      <textarea name="leader" id="leader" cols="70" rows="10"></textarea></td>
+  </tr>
+  <tr>
+    <th class="th_area">主要内容</th>
+<literal>
+<script>
+$(function () {
+    CKEDITOR.replace('content', { height: '700px', width: '552px' });
+}); 
+</script>
+</literal>
+    <td><label for="content"></label>
+      <textarea rows="150" name="content" id="content">请在这里输入内容。</textarea></td>
+
+  <tr>
+    <th colspan="2" style="text-align:center;">
+      <input type="hidden" name="action" value="form1" />
+      <input name="pic" type="hidden" value="{}" />
+      <input type="submit" value="提交" />
+      <input type="reset" value="重置" />
+      </th>
+  </tr>
+</table>
+</form>
+
+</div>
+
+</body>
+</html>

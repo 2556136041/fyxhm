@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>保养</title> 
+<link rel="stylesheet" type="text/css" href="__CSS__/commonstyle.css">
+<style type="text/CSS"> 
+<literal>
+a{text-decoration:none;}
+div.page{text-align:center;}
+div.page a{border:#CCC 1px solid;
+           padding:3px 5px;
+		   margin:0px 5px;
+           }
+div.page span.current{background:#c36;
+                      border:#CCC 1px solid;
+                      padding:3px 7px;
+                      }
+div.page span.nohref{border:#CCC 1px solid;
+                     padding:3px 5px;
+		             margin:0px 5px;
+           } 
+#tab1{width:1200px;
+      height:auto;
+	  margin:0px auto;
+	  }
+#tab2{width:1200px;
+	  margin:20px auto;
+	  font:16px verdana;
+	  }
+
+p#currpos{
+     background:#CCC;
+	 font-family:"黑体";
+	 font-size:18px;
+	 width:1200px;
+	 height:25px;
+	 margin:15px auto;
+	 line-height:25px;
+	 padding:5px 0px;
+}
+h3{
+   font-family:"微软雅黑";
+}
+#currimg{
+	width:25px;
+	height:25px;
+	
+}
+
+.pages a,
+	.pages span {
+		display: inline-block;
+		padding: 2px 5px;
+		margin: 0 1px;
+		border: 1px solid white;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+.pages a,
+.pages li {
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	color: #990033;
+}
+.pages li {
+	margin-right: 50px;
+}
+
+.pages a.first,
+.pages a.prev,
+.pages a.next,
+.pages a.end {
+	margin: 0;
+}
+
+.pages a:hover {
+	border-color: #990033;
+}
+
+.pages span.current {
+	background: #990033;
+	color: #FFF;
+	font-weight: 700;
+	border-color: #990033;
+}
+
+@media only screen and (max-width: 981px){
+    div.page{text-align:center;}
+  
+  #tab1{
+      width:964px;
+      }
+  #tab2{
+      width:964px;
+      }
+
+  p#currpos{
+     width:964px;
+  }
+}
+
+</literal>
+
+</style> 
+
+</head> 
+<body> 
+<include file="Common/top" />
+<p id="currpos">&nbsp;
+<img id="currimg" src="__IMAGES__/comm/currentpos.png" align="top">&nbsp;当前位置：<a href="/index.php">首页</a> >> 保养
+</p>
+
+<table id="tab1" align="center" border="0" cellpadding="10" cellspacing="0"> 
+<foreach name='list' item='all'>
+<tr>
+<td height='25' width="100px" align='left' class='m_td'><div class="div_img"><img src="__IMAGES__/service/{$all.pic}" width="100px" height="65px" alt="" /></div></td>
+<td height='25' width="" align='left' class='m_td'><a href="/byinfo/id/{$all.serid}.html"><h3>{$all.title}</h3></a></td>
+<td height='25' width="20%" align='right' class='m_td'>{$all.pubtime}</td>
+</tr>
+</foreach>
+</table> 
+<table id="tab2">
+<tr> 
+<td align='center' colspan="8" class="pages">
+{$page}
+<td>
+</tr> 
+</table>
+
+<include file="Common/bot" />
+</body> 
+</html> 

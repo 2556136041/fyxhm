@@ -1,0 +1,86 @@
+/* CSS Document */
+
+*{margin: 0;padding: 0;}
+body,td,th {
+	font-size: 18px;
+	width:100%;
+	height:auto;
+}
+a{text-decoration:none;}
+li{list-style-type:none;}
+.ys233 {
+	color: #900;
+}
+
+
+/* 当前  */
+p#curpos{
+    height:25px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	margin-top:20px;
+}
+
+/* 中间  */
+#div_main{width:1000px;
+          height:auto;
+          margin:0px auto;
+          }
+h1{  text-align:center;
+	 padding-top:10px;
+	 font-family:"微软雅黑";
+   }
+#p_lead{width:70%;
+        background:#CCC;
+		padding:10px;
+		margin:0px auto;
+		text-indent:2em;
+		line-height:35px;
+
+        }
+#content{text-indent:2em; 
+         margin:5px 0px;
+		 text-align:justify;
+		 font-family:"微软雅黑";
+         }
+.p_img{width:650px;
+       height:auto;
+	   margin:10px auto;
+	   text-align: right;
+	  }
+/* img{padding:5px 5px 0px 0px;} */
+
+
+/* 链接  */
+p#pageLink{
+    text-align: center;
+    margin-bottom: 50px;
+}
+p#pageLink a{
+    padding:10px 20px;
+    background: rgba(153,1,52,0.5);
+    color:white;
+    font-size: 20px;
+    border-radius:5px; 
+}
+p#pageLink a:hover{
+     background: rgba(153,1,52,0.8);
+}
+p#pageLink a#active{
+    background: rgba(153,1,52,0.8);
+}
+
+/* 尾部 
+div#div_bot{
+         width:100%;
+		 height:110px;
+		 background:#999;	
+		 margin:0px;
+	     }
+
+#addr{width:1000px;
+      margin:15px auto;
+	  font-family:"黑体";
+	  padding:20px 0px;
+      }
+ */

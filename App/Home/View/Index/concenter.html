@@ -1,0 +1,488 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>信息中心</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/commonstyle.css">
+<link rel="stylesheet" type="text/css" href="__CSS__/topnews_qh.css">
+<style type="text/css">
+<literal>
+
+#div_main{
+      width:1200px;
+      height:auto;
+      margin:10px auto;
+      clear:both;      
+}
+
+td a:link{
+     color:#000;
+}
+td a:hover{
+     color:#0F0;
+}
+/*td a:visited{
+     color:#990033;
+}*/
+#div_top{font-size:16px;
+         font-family:"宋体";
+         padding:10px 0px;     
+         margin-bottom:15px;  
+}
+
+
+div#div_hot,div#div_news,div#div_choose,div#div_by{
+      font-size:16px;
+      margin-top: 5px;
+      margin-bottom:0px;
+      width:580px;
+      height:520px;     
+}
+div#div_hot{
+      float:left;      
+}
+div#div_news{
+      float:right;      
+}
+div#div_choose{
+      float:left;      
+}
+div#div_by{
+      float:right;      
+}
+
+.titcss{
+     font-family: "微软雅黑";
+     font-size:16px;
+}
+p>a{
+    color: black;
+}
+p>a:hover{
+    color:#F00;
+}
+td>a:link,td>a:visted{
+    color:#000;
+}
+td>a:hover{
+     color:#F00;
+}
+
+td.pub{font-size: 14px;}
+
+a.newstit{
+    display: inline-block;
+    /*background: url(__IMAGES__/comm/tit0.png) no-repeat left center;*/
+    background: url(__IMAGES__/comm/tit0.png);
+    padding:5px;
+    /*background-clip: padding-box;*/
+    background-repeat:no-repeat;
+    background-position:left center;
+}
+a.newstit:hover{
+   background: url(__IMAGES__/comm/tit1.png) no-repeat left center;
+}
+
+div.other{
+    height:30px;
+	  width:100%;
+	  border-bottom: 1px solid rgb(200,200,200); 
+
+}
+p.cut{
+   clear:both;
+   width:100%;
+   height:8px;
+   margin:0px;
+   padding:0px;
+}
+    
+.p2{
+    float:left;
+    width:50%;
+    height: 30px;
+    line-height: 30px;
+    font:22px '黑体';
+    color:#333;
+    margin-top: 0px;
+
+}
+p.mark span{
+    background: rgba(100,100,100,0.8);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    font-size: 16px;
+    color:white;
+    margin-right: 6px;
+    text-align: center;
+
+}
+
+/*  更多  */
+p.more{
+      float:right;
+      width:50%;
+      height: 30px;
+      line-height: 30px;
+      text-align:right;
+      font-size: 18px;
+      font-family: "微软雅黑";
+      color: rgb(150,150,150);
+}
+p.more a{
+      color: rgb(150,150,150);
+}
+.tb11 {
+    	background-color: #F90;
+    	text-align: center;
+}
+.tb11 {
+	   text-align: center;
+}
+.sp{
+    float:right;
+    color:black;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+
+
+#p_curpos{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    line-height:25px;
+    padding:0px;
+    margin:0px;
+}
+#p_curpos a:link,#p_curpls a:visited{
+     color:black;
+}
+#p_curpos a:hover{
+     color:red;
+}
+
+/*手机端隐藏内容*/
+/*div#div_hot_mobile{
+     display: none;
+     width:100%;
+     height: auto;
+}*/
+
+@media only screen and (max-width: 981px){
+
+    #div_main{
+         width:1000px;
+         height:auto; 
+         margin-left:10vw;
+         zoom:1;
+         overflow: hidden;
+         margin-left:20px;
+         /*margin:20px auto;*/
+
+    }
+   
+  
+    div#div_hot{
+          width:1000px;   
+          height:700px;  
+          margin-bottom: 30px;
+         /* display: none;*/
+         clear:both;
+         position: relative;
+
+    }
+
+    div#div_news,div#div_choose,div#div_by{
+          width:1000px;
+          height:auto;  
+          margin-bottom: 30px;
+          clear:both;
+          position: relative;
+    }
+
+
+    p.more{
+         clear:both;
+         position: absolute;
+         right: 0px;
+         top:0px;
+    }
+
+    .p2{
+        clear:both;       
+        line-height: 40px;
+        width: 1000px;
+        height: 40px;
+        text-align: left;
+        font-size:2rem;
+    /*    background: gray;*/
+
+    } 
+
+    p.mark span{
+        background: rgba(200,200,200,0.8);
+ /*       display: inline-block;*/
+        width: 50px;
+        height: 40px;
+        border-radius: 5px;
+        color:white;
+        margin-right: 6px;
+        text-align: center;
+        vertical-align: top;
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+
+    a.newstit{
+        display: inline-block;
+        /*background: url(__IMAGES__/comm/tit0.png) no-repeat left center;*/
+        background: url(__IMAGES__/comm/icon/tit00.png);
+        padding:5px;
+        /*background-clip: padding-box;*/
+        background-repeat:no-repeat;
+        background-position:left center;
+    }
+
+    a.newstit span::before{
+       
+       
+    }
+    a.newstit:hover{
+        background: url(__IMAGES__/comm/icon/tit11.png) no-repeat left center;
+    }
+
+    .titcss{
+         font-family: "微软雅黑";
+         /*font-size:28px;*/
+         font-size: 4vw;
+    }
+
+    div.other{
+        height:50px;
+        border:none; 
+
+    }
+
+    td.pub{
+         font-family: "微软雅黑";
+         font-size:28px;
+
+    }
+
+    #p_curpos{
+        font-size: 30px;
+        line-height:40px;
+    }
+
+    #p_curpos img{
+        width: 30px;
+        height: 30px;
+    }
+
+    p.more{       
+        font-size: 28px;
+        padding-top:5px;   
+    } 
+
+    p#p_about{
+         content: "";
+         padding-left:20px;
+    }
+    div#addr p:before{
+         content: "";
+         padding-left:20px;
+    }
+
+    /*轮播样式改变*/
+
+    .banner{
+        width:960px;  
+        height: 620px;   
+
+    }
+
+    .banner ul .slider-item {
+        width:960px; 
+        height: 600px;      
+    }
+
+    .banner ul .slider-item img{
+        width:960px; 
+        height: 600px;      
+    }
+
+    .banner ul .slider-item .slider-title {
+        width: 960px;
+        height: 600px;   
+        font-size: 35px;   
+        bottom: -20px;
+    }
+
+    .banner .progress{
+        min-height:6px;
+
+    }
+
+    
+
+}
+
+</literal>
+
+</style>
+
+<!-- <link rel="stylesheet" type="text/css" href="__CSS__/topnews_qh1.css"> -->
+<script>
+
+//设置向baiduspider自动推送
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</head>
+
+<body>
+<include file="Common/topnews" />
+
+<div id="div_main">
+  <div id="div_top">
+  <p  id="p_curpos"><img src="__IMAGES__/comm/currentpos.png" width="25" height="25" style="vertical-align: middle;" /><span style="vertical-align: middle;">&nbsp;当前位置：<a href="#">资讯</a> >> 信息中心</span></p>
+  </div>
+  <p p_cut></p>
+
+  <!-- 供手机端 -->
+<!--    <div id="div_hot_mobile">
+      <div class="other">
+      <p class="p2 mark"><span>>></span>头条</p>
+      <p class="more"><a href="/top_all.html">更多&nbsp;&nbsp;</a></p>
+      </div>
+      <p class="cut" style="margin-bottom:12px;"></p>
+      <div class="banner1" id="b04">
+        <ul>
+          <volist name='top' id='topval' offset='0' length='5'>
+              <li class="slider-item1">
+                  <a href="/topnewinfo/id/{$topval.newid}.html"><img class="imgs" src="__IMAGES__/new/{$topval.pic}" alt="{$topval.title}" width="980px" height="650px" /><span class="slider-title1"><em>{$topval.title}</em></span></a>
+              </li>
+          </volist> 
+        </ul>
+        <div class="progress"></div>        
+      </div>  
+  </div> -->
+
+  <!-- pc端 -->
+  <div id="div_hot">
+      <div class="other">
+      <p class="p2 mark"><span>>></span>头条</p>
+      <p class="more"><a href="/top_all.html">更多&nbsp;&nbsp;</a></p>
+      </div>
+      <p class="cut" style="margin-bottom:12px;"></p>
+      <div class="banner" id="b04">
+      	<ul>
+          <volist name='top' id='topval' offset='0' length='5'>
+      		    <li class="slider-item"><a href="/topnewinfo/id/{$topval.newid}.html"><img class="imgs" src="__IMAGES__/new/{$topval.pic}" alt="{$topval.title}" width="100%" height="400px" /><span class="slider-title"><em>{$topval.title}</em></span></a></li>
+          </volist>	
+      	</ul>
+      	<div class="progress"></div>      	
+      </div>
+    <script src="__JS__/jquery-1.11.1.min.js"></script>
+    <script src="__JS__/unslider.min.js"></script>
+    <literal>
+    <script>
+    $(document).ready(function(e) {
+    	  var progress = $(".progress"),li_width = $("#b04 li").length;
+        var unslider04 = $('#b04').unslider({
+    		dots: true,
+    		complete:function(index){//自己添加的，官方没有
+    			   progress.animate({"width":(100/li_width)*(index+1)+"%"});
+    		}
+    	}),
+
+    	data04 = unslider04.data('unslider');
+    	$('.unslider-arrow04').click(function() {
+            var fn = this.className.split(' ')[1];
+            data04[fn]();
+        });
+    });
+    </script>
+    </literal>
+
+  </div>
+
+  <div id="div_news">
+      <div class="other">
+        <p class="p2 mark"><span>>></span>动态</p>
+        <p class="more"><a href="/news_all.html">更多&nbsp;&nbsp;</a></p>
+      </div>
+      <p class="cut"></p>
+      <table width="100%" border="0" align="left" cellpadding="5" cellspacing="0">
+      <volist name='news' id='newsval' offset='0' length='10'>
+        <tr>
+         <!--  <td width="8%" align="center"><img src="__IMAGES__/comm/tubiao.png" width="10" height="10" align="absmiddle" /></td> -->
+          <td class="titcss" width="60%" style="padding:5px;"><a class="newstit" href="/newsinfo/id/{$newsval.newid}.html"><span style="margin-left:20px;display:inline-block;">{$newsval.title}</a></span></td>
+          <td class="pub" width="32%" align="right">{$newsval.pubtime}</td>
+        </tr>
+      </volist>
+      </table>
+
+  </div>
+
+  <div id="div_choose">
+    <div class="other">
+    <p class="p2 mark"><span>>></span>选购</p>
+    <p class="more"><a href="/choose_all.html">更多&nbsp;&nbsp;</a></p>
+    </div>
+    <p class="cut"></p>
+    <table width="100%" border="0" align="left" cellpadding="5" cellspacing="0">
+    <volist name='choose' id='chooseval'>
+       <tr>
+         <!--  <td width="8%" align="center"><img src="__IMAGES__/comm/tubiao.png" width="10" height="10" align="absmiddle" /></td> -->
+          <td class="titcss" width="60%" style="padding:5px;"><a class="newstit" href="/chooseinfo/id/{$chooseval.serid}.html"><span style="margin-left:20px;display:inline-block;">{$chooseval.title}</span></a></td>
+          <td class="pub" width="32%" align="right">{$chooseval.pubtime}</td>
+       </tr>
+    </volist>
+    </table>
+  </div>
+
+  <div id="div_by">
+    <div class="other">
+    <p class="p2 mark"><span>>></span>保养</p>
+    <p class="more"><a href="/by_all.html">更多&nbsp;&nbsp;</a></p>
+    </div>
+    <p class="cut"></p>
+    <table width="100%" border="0" align="left" cellpadding="5" cellspacing="0">
+    <volist name='baoyang' id='byvo'>
+        <tr>
+          <!-- <td width="8%" align="center"><img src="__IMAGES__/comm/tubiao.png" width="10" height="10" align="absmiddle" /></td> -->
+          <td class="titcss" width="60%" style="padding:5px;"><a class="newstit" href="/byinfo/id/{$byvo.serid}.html"><span style="margin-left:20px;display:inline-block;">{$byvo.title}</span></a></td>
+          <td class="pub" width="32%" align="right">{$byvo.pubtime}</td>
+        </tr>
+    </volist>
+    </table>
+  </div>
+</div>
+
+<div style="width:100px;height:5px;clear: both;"></div>
+<include file="Common/botnews" />
+
+<literal>
+
+</literal>
+</body>
+</html>

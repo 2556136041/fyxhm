@@ -1,0 +1,524 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>红木产品</title>
+<script type="text/javascript" src="/Public/js/jquery/jquery3.0.js"></script>
+
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	a{text-decoration:none;}
+	a:link,a:visited{color:#000;}
+	a:hover{color:#F00;}
+	
+    /*nav*/
+	#div_nav{
+		width: 100%;
+		margin:0px;
+        padding:0px;
+		height: 50px;
+		background:#990033;
+		letter-spacing:5px; 
+	}
+	.p_column,.p_logo{
+		display: inline-block;
+		height: 50px; 
+		margin:0px;
+		padding:0px;
+		float:left;
+	}
+	.p_column{
+		width: 16%;
+		line-height:50px;
+		font-size:25px;
+		font-family:"Microsoft YaHei";
+		font-weight: 600;
+		text-align:center;
+		color: #FFF;
+
+	}
+	#div_nav>.p_column a{
+		width:100%;
+		height:50px;
+		font-weight: 600;
+	    display:block;
+	    color:#FFF;
+	}
+	#div_nav>.p_column a:hover{
+		width:100%;
+		height:50px;
+	    display:block;
+	    background:#C36;
+	}
+	.p_logo{
+		width: 20%;
+		text-align:center;
+	}
+    /*shop*/
+    #p_shop{
+		position:fixed;
+		top:60px;
+		right:5px;
+		width:49px;
+		height:25px;
+		z-index: 100;
+	}
+	#p_shop a:link,#p_lead a:visited{color:#000;}
+	#p_shop a:hover{color:#F00;}
+    /*lead*/
+	#p_lead{
+		width:1100px;
+		margin:20px auto;
+		line-height:25px;
+		font-size: 18px;
+		font-family: '微软雅黑';
+	}
+
+	#p_lead a:link,#p_lead a:visited{color:#000;}
+	#p_lead a:hover{color:#F00;}
+
+	/*  搜索框  */
+	#tab_search{
+	     width:1100px;
+	     height:40px;
+	     margin:15px auto;	 
+		 text-align:right;      
+	}
+
+	input[type="text"]{
+	    width:400px;
+	    height:40px;
+	    font:16px "微软雅黑";
+	    border:1px solid rgb(200,200,200);
+		padding-left:10px;
+		line-height:40px;
+	}
+	input[type="submit"]{
+	    width:90px;
+	    height:40px;
+	    font:18px "微软雅黑";
+	    border-radius:3px;
+	}
+	input[type="submit"]:hover{
+		  cursor:pointer;
+		  background:#990033;
+		  color:white;
+	}
+
+    /*main*/
+	ul{
+		width: 1100px;
+		height: auto;
+		overflow: hidden;
+		/*background: gray;*/
+		margin: 0 auto;
+
+	}
+	ul li{
+		float: left;
+		width: 334px;
+		list-style: none;
+		margin: 16px;
+
+	}
+	ul li div{
+		width: 334px;			
+		margin-bottom: 20px;				
+		padding: 10px;				
+		box-sizing: border-box;				
+		border-radius: 5px;				
+		box-shadow: 2px 2px 10px #919B9C;
+
+	}
+	ul li img{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	ul li p{
+		font-family: "microsoft yahei";
+		font-size: 16px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	/*回到顶部 */
+	.dn{
+	    display: none;
+	}
+	.go-top{
+	    position: fixed;
+	    bottom: 220px;
+	    right: 20px;
+	    width: 46px;
+	    z-index: 999;
+	}
+	.go-top a{
+	    display: block;
+	    width: 46px;
+	    height: 46px;
+	    margin-bottom: 10px;
+	    background-image: url(/Public/images/hf/go-top1.png);
+	}
+	.go-top a:last-child{
+	    margin-bottom: 0;
+	}
+	.go-top .go{
+	    background-position: 0 -150px;
+	}
+	.go-top .go:hover{
+	    background-position: 0 -250px;
+	}
+	.go-top .feedback{
+	    background-position: 0 -100px;
+	}
+	.go-top .feedback:hover{
+	    background-position: 0 -300px;
+	}
+	.go-top .uc-2vm{
+	    background-position: 0 0;
+	}
+	.go-top .uc-2vm:hover{
+	    background-position: 0 -350px;
+	}
+	.go-top .uc-2vm-pop{
+	    position: absolute;right: 60px;top: -100px;
+	    width: 240px;box-shadow: 0px 1px 4px rgba(0,0,0,.1);
+	    background: #fff;
+	}
+	.go-top .uc-2vm-pop .title-2wm{
+	    font-size: 14px; margin: 10px 20px;
+	}
+	.go-top .uc-2vm-pop .logo-2wm-box{
+	    position: relative;
+	}
+
+/*	#ul1 li:last-child:after{
+		 content: "没有更多的了！";
+		 display:block;
+		 background: red;
+		 color:white;
+		 padding:5px;
+		 text-align: center;
+
+	}*/
+@media only screen and (max-width: 981px){
+
+   /*nav*/
+	#div_nav{
+		width: 1100px;
+		margin:0px;
+    padding:0px;
+		height: 80px;
+		background:#990033;
+		letter-spacing:5px; 
+		position:relative;
+	}
+
+	.p_column,.p_logo{
+		display: inline-block;
+		height: 80px; 
+		line-height:80px;
+		margin:0px;
+		padding:0px;
+		float:left;
+	}
+	.p_column{
+		width: 16%;		
+		font-size:30px;
+		font-family:"Microsoft YaHei";
+		font-weight: 600;
+		text-align:center;
+		color: #FFF;
+
+	}
+	#div_nav>.p_column a{
+		width:100%;
+		height:80px;
+		font-weight: 600;
+	    display:block;
+	    color:#FFF;
+	}
+	#div_nav>.p_column a:hover{
+		width:100%;
+		height:80px;
+	    display:block;
+	    background:#C36;
+	}
+
+	#div_nav>.p_column a:hover{
+		width:100%;
+		height:80px;
+	    display:block;
+	    background:#C36;
+	}
+	.p_logo{
+		width: 20%;
+		text-align:center;
+		vertical-align: middle;
+
+	}
+
+	.p_logo img{
+		position: absolute;
+		top:15px;
+		left: 35px;
+
+	}
+
+    /*shop*/
+    #p_shop{
+		position:absolute;
+		top:100px;
+		right:5px;
+		width:59px;
+		height:35px;
+		z-index: 100;
+   }
+   #p_shop a:link,#p_lead a:visited{color:#000;}
+   #p_shop a:hover{color:#F00;}
+
+   /*lead*/
+   #p_lead{
+      line-height:40px;
+      font-size: 30px;
+      margin-left:1vw;
+   }
+
+   #p_lead img{
+      width:30px;
+      height:30px;
+   }
+
+   #tab_search{
+      height:80px;
+      margin:15px auto;   
+      text-align:right;      
+
+    }
+
+    input[type="text"]{
+      height:60px;
+      font-size:30px;
+      line-height:60px;
+      border-radius: 15px
+    }
+    input[type="submit"]{
+        width:120px;
+        height:60px;
+        font-size:30px;
+    }
+
+
+}
+</style>
+
+</head>
+<body>
+	    <div id="div_nav">
+				<p class="p_logo"><a href="/index.html"><img src="/Public/images/comm/fyxbb.png" width="150px" height="50px"></a></p>
+				<p class="p_column"><a href="/index.html">首页</a></p>
+				<p class="p_column"><a href="/concenter.html" target="_blank" class="nav">资讯</a></p>
+				<p class="p_column"><a href="/pro_center.html" target="_blank" class="nav">红木新品</a></p>
+				<p class="p_column"><a href="/play.html" target="_blank" class="nav">活动</a></p>
+				<p class="p_column"><a href="/video_center.html" target="_blank" class="nav">视频</a></p>
+		</div>
+		<p id="p_shop"><a href="javascript:void(alert('购物车尚未开通，如有兴趣可通过QQ(2879286250)咨询'))"><img src="/Public/images/comm/shopping1.png" width="49" height="25" align="top" /></a>
+		</p>
+		   <p id="p_lead"><img src="/Public/images/comm/currentpos.png" width="25" height="25" style="vertical-align: middle;" /><span style="vertical-align: middle;">&nbsp;当前位置：<a href="/index.html">首页</a> >>产品中心</span></p>
+
+		<table id="tab_search" border="0" cellpadding="" cellspacing="">
+		  <form id="form1" name="form1" method="post" action="/prosearch.html"   
+		  onsubmit="return checkinput(this)">
+		<tr>
+		<td>
+		    <input width="" align="left" type="text" name="keyword" id="keyword" placeholder=" 关键词" style="margin-right:5px;" />
+		</td>
+
+		<td width="50px" align="left">   
+		    <input name="submit" type="submit" id="button" value="搜索" />
+		</td>
+		</tr>
+		  </form>
+		</table>
+
+		<ul id="ul1">
+			<li></li>
+			<li></li>
+			<li></li>	
+		
+		</ul>
+
+        <!-- 回到顶部 -->
+		<div class="go-top dn" id="go-top">
+		    <a href="javascript:;" class="uc-2vm"></a>
+		    <div class="uc-2vm-pop dn">
+		        <h2 class="title-2wm">用微信扫一扫</h2>
+		        <div class="logo-2wm-box">
+		          <img src="/Public/images/comm/qr.png" alt="福逸轩红木官微" width="240" height="240">
+		        </div>
+		    </div>
+		    <a href="/leavemes.html" target="_blank" class="feedback"></a>
+		    <a href="javascript:;" class="go"></a>
+		</div>       
+        
+<script>
+
+
+var allProductData = [] //全部的数据
+var productData = [] //要渲染的数据
+var listQuery = {
+	currPage: 1,
+	pageSize: 10
+}
+
+var page=0;
+
+
+//获取界面节点
+var ul = $('#ul1');
+var li = $('li');
+var liLen = li.length;    
+
+
+function queryData(){
+    //数据处理 
+    productData = allProductData.slice((listQuery.currPage-1) * listQuery.pageSize, listQuery.currPage * listQuery.pageSize);
+
+    console.log(productData);
+    
+    for(i=0;i<productData.length;i++){
+    	var index = getShort(li);//查找最短的li
+		//创建新的节点：div>img+p
+		var div = $('<div>');
+		var a = $('<a>');
+		$(a).attr('href','/proshow/id/'+productData[i].proid+'.html');
+		$(a).appendTo($(div));
+		var img = $('<img>');
+		$(img).attr('src',"../Public/images/pro/"+productData[i].propic);//img获取图片地址
+		$(img).attr("alt","我在努力加载...");
+		//根据宽高比计算img的高，为了防止未加载时高度太低影响最短Li的判断
+		// $(img).css('height',(data[i].height+60) * (334 / data[i].width+20) + "px");
+		$(img).appendTo($(a));
+		var p = $('<p>');
+		$(p).text(productData[i].proname);//p获取图片标题
+		$(p).appendTo($(div));
+		//加入到最短的li中
+		$(div).appendTo($(li[index]));
+		$(li).appendTo($(ul));
+	}
+    // 小于总页数，当前页就不加1了
+    if(listQuery.currPage < page+1){   	
+    	listQuery.currPage++;
+    }
+    
+    console.log("page:"+listQuery.currPage);
+    // 及时更新视图
+    //  bindHTML();
+}
+
+
+function getAllData(){
+	var res;        
+	$(document).ready(function(){
+		$.ajax({url:"/ajaxProData",async:true,success:function(result){
+                allProductData = JSON.parse(result);
+                console.log(allProductData.length);
+                page=Math.ceil(allProductData.length / listQuery.pageSize);
+                queryData();
+            }
+        });
+	});
+}	
+
+window.onload = function() {
+	getAllData();
+	
+	window.onscroll = function (){
+		var index = getShort(li);
+		var minLi = li[index];
+
+		var scrollTop = document.documentElement.scrollTop||document.body.scrollTop;
+		
+		if(minLi.offsetHeight+minLi.offsetTop<scrollTop+document.documentElement.clientHeight){
+			// 小于总页数就不加了
+			if(listQuery.currPage < page+1){		   	
+		    	queryData();
+		    }  
+
+		}
+	}
+	 
+}
+
+// window.onscroll = function() {
+// 	// 文档内容实际高度（包括超出视窗的溢出部分）
+// 	var scrollHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+// 	console.log(scrollHeight)
+// 	//滚动条滚动距离
+// 	var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+// 	console.log(scrollTop)
+// 	//窗口可视范围高度
+// 	var clientHeight = window.innerHeight || Math.min(document.documentElement.clientHeight, document.body.clientHeight);
+// 	console.log(clientHeight)
+
+// 	if (clientHeight + scrollTop >= scrollHeight) {
+//         queryData();
+//      }
+// }
+
+	
+/**
+ * 获取数组中高度最小的索引
+ * @param {Object} li 数组
+ */
+function getShort(li) {
+	var index = 0;
+	var liHeight = li[index].offsetHeight;
+	for(var i = 0; i < li.length; i++) {
+		if(li[i].offsetHeight < liHeight) {
+			index = i;
+			liHeight = li[i].offsetHeight;
+		}
+	}
+	return index;
+}
+
+//回到顶部
+$(function(){
+	$(window).on('scroll',function(){
+	    var st = $(document).scrollTop();
+	    if( st>0 ){
+		   if( $('#main-container').length != 0  ){
+		        var w = $(window).width(),mw = $('#main-container').width();
+		        if( (w-mw)/2 > 70 )
+		          $('#go-top').css({'left':(w-mw)/2+mw+20});
+		        else{
+		          $('#go-top').css({'left':'auto'});
+		        }
+		   }
+	      $('#go-top').fadeIn(function(){
+	           $(this).removeClass('dn');
+	      });
+	    }else{
+		      $('#go-top').fadeOut(function(){
+		          $(this).addClass('dn');
+		      });
+	    } 
+	});
+	$('#go-top .go').on('click',function(){
+	   $('html,body').animate({'scrollTop':0},500);
+	});
+
+	$('#go-top .uc-2vm').hover(function(){
+	   $('#go-top .uc-2vm-pop').removeClass('dn');
+	},function(){
+	   $('#go-top .uc-2vm-pop').addClass('dn');
+	});
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>template public tpl</h1>
+	<h2>{$obj->name}</h2>
+	<h2>{$obj:age}</h2>
+
+	<h3>{$Think.const.APP_PATH}</h3>
+	<h3>{$Think.const.APP_NAME}</h3>
+	<h3>{$Think.config.db_charset}</h3>
+	<h3>{$obj->name|md5}</h3>
+	<h3>{$time|date='Y-m-d H:i:s',###}</h3>
+	<h3>{$obj->name|md5|substr=0,5}</h3>
+	<h3>{$name|default='无值'}</h3>
+</body>
+</html>

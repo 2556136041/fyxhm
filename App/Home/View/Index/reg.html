@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+ <meta charset="UTF-8"> 
+ <title>用户注册</title> 
+ <script type="text/javascript" src="__JS__/checkform.js"> </script> 
+ <style type="text/css"> 
+<literal>
+body
+{
+  background-image: url(__IMAGES__/comm/fm.jpg);
+  background-size: cover;
+} 
+a
+{
+  text-decoration: none;
+  color:black;
+}
+a:hover
+{
+  color:red;
+}
+div#div_main{
+		width:700px;
+		margin:30px auto;
+		border:1px solid black;
+	}
+table{width:600px;
+	      }
+
+.input1
+{
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  border:1px solid black;
+}
+.input2
+{
+  padding:2px 10px;
+  border-radius: 5px;
+  font-size:18px;
+  font-family: "黑体";
+}
+.input2:hover
+{
+   background: yellow;
+}
+ .td_first
+ {color:black;
+  font-family: "黑体";
+  width: 100px;
+  font-size: 17px;
+
+ }
+ textarea
+ {
+  font-size: 17px;
+  width:300px;
+ }
+
+ .user_icon
+{
+   background:url(__IMAGES__/comm/user_icon.jpg) right center no-repeat;
+}
+</literal>
+ </style> 
+ </head> 
+ <body> 
+<include file='Common/top' />
+<div id="div_main">
+<form name="form" action="/saveReg" method="post" onsubmit="return checkForm()"> 
+ <table width="700px" cellpadding="0" border="0" cellspacing="10" align="center" > 
+ <tr style="text-align:left;"> 
+     <th colspan="3">&nbsp;&nbsp;如你已经是本站的用户，请点击<a href="/login.html">这里</a>登陆</th> 
+ </tr> 
+ <tr> 
+     <th colspan="3"><h1>会员注册</h1></th> 
+ </tr> 
+ <tr> 
+    <td class="td_first" align="right" >用户名：</td> 
+    <td><input type="text" class="input1 user_icon" name="username" id="username" onfocus="focus_username()" onblur="blur_username()" ></td> 
+    <td><div id="result_username"></div></td> 
+ </tr> 
+  <tr> 
+    <td class="td_first" align="right" >性别：</td> 
+    <td>
+    男<input type="radio" checked name="sex" value="男" />
+    女<input type="radio" name="sex" value="女" />
+    </td> 
+ </tr> 
+ <tr> 
+    <td class="td_first" align="right">密码：</td> 
+    <td><input class="input1" type="password" name="pwd" onfocus="focus_userpwd()" onblur="blur_userpwd()" /></td> 
+    <td><div id="result_userpwd"></div></td> 
+ </tr> 
+ <tr> 
+    <td class="td_first" align="right">确认密码：</td> 
+    <td><input class="input1" type="password" name="repwd" onfocus="focus_userpwd1()" onblur="blur_userpwd1()"/></td> 
+    <td><div id="result_userpwd1"></div></td> 
+</tr> 
+<tr> 
+    <td class="td_first" align="right">手机号码：</td> 
+    <td><input class="input1" type="text" name="Mobile" onfocus="focus_Mobile()" onblur="blur_Mobile()"/></td> 
+    <td><div id="result_Mobile"></div></td> 
+ </tr> 
+<tr> 
+    <td class="td_first" align="right">电子邮箱：</td> 
+    <td><input class="input1" type="text" name="email" onfocus="focus_email()" onblur="blur_email()"/></td> 
+    <td><div id="result_email"></div></td> 
+ </tr> 
+ <tr>
+    <td class="td_first" align="right">地址：</td> 
+    <td><input class="input1" type="text" name="address" onfocus="focus_address()" onblur="blur_address()"/></td> 
+    <td><div id="result_address"></div></td> 
+</tr>
+
+<tr> 
+    <td align="center" colspan="3">
+    <input type="hidden" name="photo" value="0">
+    <input type="hidden" name="ip" value="{$Think.server.remote_addr}">
+    <input class="input2" type="submit" value="提交" /> 
+    <input class="input2" type="reset" value="重置" /></td> 
+ </tr> 
+ </table> 
+ </form>  
+ </div>
+<include file='Common/bot' />
+ </body> 
+ </html>

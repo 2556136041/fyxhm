@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>资讯</title>
+<link rel="stylesheet" type="text/css" href="/Public/css/commonstyle.css">
+<style type="text/css">
+<literal>
+h1{
+	font-family:"微软雅黑";
+}
+
+p#currpos{
+     background:#CCC;
+	 font-family:"黑体";
+	 font-size:18px;
+	 width:1200px;
+	 height:25px;
+	 margin:20px auto;
+	 line-height:25px;
+	 padding:5px 0px;
+}
+#currimg{
+	width:25px;
+	height:25px;	
+}
+
+#div_main{
+	width:1200px;
+	height:auto;
+	margin:10px auto;
+}
+#div_l{
+	float:left;
+	width:73%;
+}
+#p_lead{
+	width:80%;
+	background:gray;
+	margin:15px auto;
+	padding:10px; 	
+	text-indent: 2em;	
+	color:white;
+	font-family: "黑体";
+	font-size: 16px;
+	line-height: 26px;
+
+}
+
+#content{
+	 text-align:justify;
+	 font-size:16px;
+	 font-family:"微软雅黑";
+	 line-height: 26px;
+}
+
+/*  分享   */
+#share{width:100%;
+       height:auto;}
+#share a{width: 40px;height: 40px;padding: 0;margin: 6px;}
+#share a.bds_weixin{background: url(__IMAGES__/comm/微信.png) no-repeat;}
+#share a.bds_tsina{background: url(__IMAGES__/comm/微博.png) no-repeat;}
+#share a.bds_qzone{background: url(__IMAGES__/comm/QQ空间.png) no-repeat;}
+#share a.bds_renren{background: url(__IMAGES__/comm/人人网.png) no-repeat;}
+#share a.bds_more{background: url(__IMAGES__/comm/更多.png) no-repeat;}
+table{
+	width:100%;
+
+}
+#tab2{
+	clear: both;
+	margin-bottom: 20px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color:rgb(20,20,20);
+}
+
+.turnpage>a{
+	color:rgb(20,20,20);
+}
+.turnpage>a:hover{
+	color:red;
+}
+
+#div_right{
+	float:right;
+	width:25%;
+	height:auto;
+	/*background: gray;*/
+	margin:10px 0px;
+}
+#tab3{
+	width:90%;
+	margin:15px auto;
+	font-family: "黑体";
+	font-size: 16px;
+}	
+#tab3 img{
+	width: 100%;
+
+}
+.side_bar{
+    font-family: "微软雅黑";
+	font-size: 20px;
+	margin:0px;
+	padding:0px;
+}
+.sideline{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height: 4px;
+}
+.sideline_w{
+	display: inline-block;
+	width:20%;
+	height: 4px;
+	margin:0px;
+	padding:0px;
+	background:#990033;
+
+}
+.sideline_l{
+	display: inline-block;
+	width:80%;
+	height: 2px;
+    margin:1px auto;
+	background:#C36;
+
+}
+.side_tit{
+
+}
+p#p_cutline{
+    width:100%;
+	height:3px;
+	background:#990033;
+	margin:10px auto;
+}
+
+/* qh  */
+*{
+   margin:0;
+   padding:0;
+}
+ul,li{
+	list-style:none;
+	font-size:16px;
+	font-family:'黑体';
+	text-align:left;
+	}
+.list_lh a{
+	color:black;
+	text-decoration:none;
+}
+.list_lh a:hover{
+	color:red;
+}
+.bcon{
+	width:100%;
+	/*border:1px solid #eee;*/
+	margin:15px auto;
+}
+.list_lh{
+	height:100px;
+	overflow:hidden;
+	text-align: center;
+	font-size: 16px;
+}
+.list_lh li p{
+	height:30px;
+	line-height:30px;
+}
+p.classic_cut{
+	height:15px;
+	width:100%;
+}
+
+/*回到顶部*/
+#btn{
+	display: none;
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	left:50%;
+	margin-left: 620px;
+	bottom:220px;
+	background:url(__IMAGES__/pro/fyx2.jpg) no-repeat left top;
+}
+#btn:hover{
+	background:url(__IMAGES__/pro/fyx2.jpg) no-repeat left -80px;
+}
+
+.flow{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width:280px;
+}
+
+@media only screen and (max-width: 981px){
+
+	p#currpos{
+		 width:980px;		 
+	}
+
+	#div_main{
+		width:980px;
+	}
+	#div_l{
+		width:980px;
+		clear: both;
+	}
+	
+	#div_right{
+		display: none;
+	}
+	
+    #div_img img{
+    	width: 980px;
+    }
+
+    h1{
+    	font-size: 40px;
+    }
+    #p_lead{
+        font-size: 20px;
+    }
+    #content{
+		 text-align:justify;
+		 padding:0px 20px; 
+		 font-size:20px;
+		 font-family:"微软雅黑";
+		 line-height: 26px;
+
+    }
+
+}
+</literal>
+</style>
+<script type="text/javascript" src="/Public/js/jquery/jquery3.0.js"></script>
+
+<literal>
+<script>
+(function($){
+    $.fn.myScroll = function(options){
+    //默认配置
+    var defaults = {
+        speed:40,  //滚动速度,值越大速度越慢
+        rowHeight:24 //每行的高度
+    };
+    var opts = $.extend({}, defaults, options),intId = []; 
+    function marquee(obj, step){    
+        obj.find("ul").animate({
+            marginTop: '-=1'
+        },0,function(){
+                var s = Math.abs(parseInt($(this).css("margin-top")));
+                if(s >= step){
+                    $(this).find("li").slice(0, 1).appendTo($(this));
+                    $(this).css("margin-top", 0);
+                }
+            });
+        }       
+        this.each(function(i){
+            var sh = opts["rowHeight"],speed = opts["speed"],_this = $(this);
+            intId[i] = setInterval(function(){
+                if(_this.find("ul").height()<=_this.height()){
+                    clearInterval(intId[i]);
+                }else{
+                    marquee(_this, sh);
+                }
+            }, speed);
+            _this.hover(function(){
+                clearInterval(intId[i]);
+            },function(){
+                intId[i] = setInterval(function(){
+                    if(_this.find("ul").height()<=_this.height()){
+                        clearInterval(intId[i]);
+                    }else{
+                        marquee(_this, sh);
+                    }
+                }, speed);
+            });
+
+        });
+    }
+})(jQuery);
+
+$(document).ready(function(){      
+    $("div.list_lh").myScroll({
+        speed:40, //数值越大，速度越慢
+        rowHeight:30 //li的高度
+    });
+})
+
+//回到顶部
+$(document).ready(function(){
+    $('.top').hide(); 
+    $(window).scroll(function(){
+          var s=$(window).scrollTop();
+          if(s>800){
+               $(".top").fadeIn();  
+          }else{
+               $(".top").fadeOut();
+          }          
+    });
+
+    $(".top").click(function() {
+          $("html,body").animate({scrollTop:0}, 1500);
+          return false;
+     });
+   
+ });
+</script>
+</literal>
+</head>
+
+<body>
+<include file='Common/top' />
+<p id="currpos">&nbsp;
+<img id="currimg" src="__IMAGES__/comm/currentpos.png" align="top">&nbsp;当前位置：<a href="/index.html">首页</a> >> <a href="/news_all.html">动态</a> >> 正文
+</p>
+<div id="div_main">
+<div id="div_l">
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><h1 align="center">{$new.title}</h1></td>
+    </tr>
+    <tr>
+		<td align="center"><span>{$new.author}</span>&nbsp;<span>{$new.comfrom}</span>&nbsp;<span>{$new.pubtime}</span></td>
+	</tr>
+    <tr>
+		<td>
+            <div id="share">
+			<div class="bdsharebuttonbox">  
+			<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a> 
+			<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>  
+			<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>  
+			<!-- <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+			<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>   -->   
+			<a href="#" class="bds_more" data-cmd="more"></a>     
+			</div>  
+			</div>
+			<literal>
+			<script type="text/javascript">
+			window._bd_share_config={  
+			        "common":{  
+			            "bdPopTitle":"您的自定义pop窗口标题",  
+			            "bdSnsKey":{},  
+			            "bdText":"此处填写自定义的分享内容",   
+			            "bdMini":"2",  
+			            "bdMiniList":false,  
+			            "bdPic":"http://localhost/centlight/public/attachment/201410/24/14/5449ef39574f5_282x220.jpg", /* 此处填写要分享图片地址 */  
+			            "bdStyle":"0",  
+			            "bdSize":"16"  
+			            },  
+			        "share":{}  
+			};  
+			with(document)0[  
+			                (getElementsByTagName('head')[0]||body).  
+			                appendChild(createElement('script')).  
+			                src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)  
+			];  
+
+			</script> 
+			</literal>
+        </td>
+	</tr>
+    <tr>
+		<td><p id="p_lead">{$new.lead}</p></td>
+	</tr>
+	<tr>
+		<td align="center"><div class="div_img"><img src="__IMAGES__/new/{$new.pic}" width="600px" alt="" /></div></td>
+	</tr>
+    <tr>
+		<td id="content">{$new.content|html_entity_decode}</td>
+	</tr>
+</table>
+
+<p id="p_cutline"></p>
+<table border="0" cellspacing="10" cellpadding="0" id="tab2">
+<if condition='$f_t!=null'>
+<tr>
+<td class="turnpage">上一篇：<a href="{$furl}.html">{$f_t}</a></td>
+</tr>
+<else/>
+<tr><td>没有了</td></tr>
+</if>
+<if condition='$a_t!=null'>
+<tr>
+<td class="turnpage">下一篇：<a href="{$aurl}.html">{$a_t}</a></td>
+</tr>
+<else/>
+<tr><td>没有了</td></tr>
+</if>
+</table>
+</div>
+
+<div id="div_right">
+<table border="0" cellspacing="10" cellpadding="0" id="tab3">
+	<tr>
+		<td>
+		<p class="side_bar">热点</p>
+		<p class="sideline"><span class="sideline_w"></span><span class="sideline_l"></span></p>
+		<p class='classic_cut'>
+		 <volist name="top" id="topvo" offset="0" length="1">
+		<p class="p_img"><img src="__IMAGES__/new/{$topvo.pic}" alt="" />
+		</p>
+		<p class='classic_cut'>
+		<p class="side_tit"><a href="/topnewinfo/id/{$topvo.newid}.html">{$topvo.title}</a></p>
+		</volist>
+		<div class="bcon">
+            <div class="list_lh">
+               <ul>
+               <volist name="top" id="topvo" offset="1" length="5">
+		            <li><p class='flow'><a href="/topnewinfo/id/{$topvo.newid}.html">{$topvo.title}</a></p></li>
+		       </volist>
+               </ul>
+            </div>
+        </div>
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p class="side_bar">选购</p>
+		<p class="sideline"><span class="sideline_w"></span><span class="sideline_l"></span></p>
+		<p class='classic_cut'>
+		<p class="p_img"><img src="__IMAGES__/service/{$choose.pic}" alt="" />
+		</p>
+		<p class='classic_cut'>
+		<p class="side_tit"><a href="/chooseinfo/id/{$choose.serid}.html">{$choose.title}</a></p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p class='classic_cut'>
+		<p class="side_bar">保养</p>
+		<p class="sideline"><span class="sideline_w"></span><span class="sideline_l"></span></p>
+		<p class='classic_cut'>
+		<p class="p_img"><img src="__IMAGES__/service/{$by.pic}" alt="" /></p>
+		<p class='classic_cut'>		
+		<p class="side_tit"><a href="/byinfo/id/{$by.serid}.html">{$by.title}</a></p>
+		</td>
+	</tr>
+	
+</table>
+</div>
+</div>
+<include file='Common/bot' />
+<a href="javascript:void(0);" id="btn" class='top' title="回到顶部"></a>
+</body>
+</html>
